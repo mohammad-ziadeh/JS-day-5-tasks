@@ -23,25 +23,4 @@ form.addEventListener("submit", (event) => {
   }
 });
 
-// form.addEventListener("submit", (event) => {
-//   event.preventDefault();
 
-//   let newItem = input.value.trim();
-//   if (newItem) {
-//     let listItem = document.createElement("li");
-//     listItem.textContent = newItem;
-
-//     let deleteButton = document.createElement("button");
-//     deleteButton.textContent = "Delete";
-//     deleteButton.addEventListener("click", () => {
-//       list.removeChild(listItem);
-//     });
-
-//     listItem.appendChild(deleteButton);
-
-//     list.appendChild(listItem);
-
-//     input.value = "";
-//     input.focus();
-//   }
-// });
